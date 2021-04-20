@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo31-producer</artifactId>
+    <artifactId>demo21d-server</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,15 +19,29 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon-api</artifactId>
+            <artifactId>demo21d-interface</artifactId>
+            <version>demo</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon-rpc</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>rocketmq-solon-plugin</artifactId>
+            <artifactId>solon.boot.socketd.smartsocket</artifactId>
             <version>${solon.ver}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>consul-solon-plugin</artifactId>
+            <version>${solon.ver}</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -58,7 +72,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>testapi.TestApi1App</mainClass>
+                            <mainClass>demo.ServarApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -12,29 +12,29 @@
     <description>Java project for solon-rpc demo</description>
 
     <modules>
-        <module>cloud-config-discover-rpc/demo20.solon-cloud-nacos/demo20-interface</module>
-        <module>cloud-config-discover-rpc/demo20.solon-cloud-nacos/demo20-client</module>
-        <module>cloud-config-discover-rpc/demo20.solon-cloud-nacos/demo20-server</module>
+        <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-interface</module>
+        <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-client</module>
+        <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-server</module>
 
-        <module>cloud-config-discover-rpc/demo20d.solon-cloud-nacos/demo20d-interface</module>
-        <module>cloud-config-discover-rpc/demo20d.solon-cloud-nacos/demo20d-client</module>
-        <module>cloud-config-discover-rpc/demo20d.solon-cloud-nacos/demo20d-server</module>
+        <module>cloud-config-discovery-rpc/demo20d.solon-cloud-nacos/demo20d-interface</module>
+        <module>cloud-config-discovery-rpc/demo20d.solon-cloud-nacos/demo20d-client</module>
+        <module>cloud-config-discovery-rpc/demo20d.solon-cloud-nacos/demo20d-server</module>
 
-        <module>cloud-config-discover-rpc/demo21.solon-cloud-consul/demo21-interface</module>
-        <module>cloud-config-discover-rpc/demo21.solon-cloud-consul/demo21-client</module>
-        <module>cloud-config-discover-rpc/demo21.solon-cloud-consul/demo21-server</module>
+        <module>cloud-config-discovery-rpc/demo21.solon-cloud-consul/demo21-interface</module>
+        <module>cloud-config-discovery-rpc/demo21.solon-cloud-consul/demo21-client</module>
+        <module>cloud-config-discovery-rpc/demo21.solon-cloud-consul/demo21-server</module>
 
-        <module>cloud-config-discover-rpc/demo21d.solon-cloud-consul/demo21d-interface</module>
-        <module>cloud-config-discover-rpc/demo21d.solon-cloud-consul/demo21d-client</module>
-        <module>cloud-config-discover-rpc/demo21d.solon-cloud-consul/demo21d-server</module>
+        <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-interface</module>
+        <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-client</module>
+        <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-server</module>
 
-        <module>cloud-config-discover-rpc/demo22.solon-cloud-water/demo22-interface</module>
-        <module>cloud-config-discover-rpc/demo22.solon-cloud-water/demo22-client</module>
-        <module>cloud-config-discover-rpc/demo22.solon-cloud-water/demo22-server</module>
+        <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-interface</module>
+        <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-client</module>
+        <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-server</module>
 
-        <module>cloud-config-discover-rpc/demo22d.solon-cloud-water/demo22d-interface</module>
-        <module>cloud-config-discover-rpc/demo22d.solon-cloud-water/demo22d-client</module>
-        <module>cloud-config-discover-rpc/demo22d.solon-cloud-water/demo22d-server</module>
+        <module>cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-interface</module>
+        <module>cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-client</module>
+        <module>cloud-config-discovery-event-log/demo22d.solon-cloud-water/demo22d-server</module>
 
 
         <module>cloud-event/demo30.solon-cloud-rabbitmq/demo30-consumer</module>
