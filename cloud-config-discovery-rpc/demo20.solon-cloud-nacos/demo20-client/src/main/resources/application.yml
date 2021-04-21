@@ -7,4 +7,4 @@ solon.cloud.nacos:
   username: nacos             #nacos链接账号
   password: nacos             #nacos链接密码
   config:
-    loadKey: "test.properties"
+    load: "test.properties"
