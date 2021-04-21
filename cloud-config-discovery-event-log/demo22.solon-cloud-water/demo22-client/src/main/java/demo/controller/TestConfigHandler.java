@@ -5,7 +5,7 @@ import org.noear.solon.cloud.annotation.CloudConfig;
 import org.noear.solon.cloud.model.Config;
 
 /**
- * 配置订阅（获取配置的时实刷新）
+ * 配置订阅（获取配置的时实刷新）。这种形式可能匹配场景较少
  *
  * @author noear 2021/1/6 created
  */

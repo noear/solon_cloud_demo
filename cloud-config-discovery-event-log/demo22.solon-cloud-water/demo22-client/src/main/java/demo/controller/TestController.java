@@ -13,15 +13,15 @@ import org.noear.solon.cloud.annotation.CloudConfig;
  */
 @Controller
 public class TestController {
-    //注：非单例，不需要加autoRefreshed
+    //注：非单例，不需要加autoRefreshed（每次实例化时，就会使用新配置）
     @CloudConfig(value = "water_cache_header", autoRefreshed = true)
     String water_cache_header;
 
-    //这是本地的
+    //这是本地的服务
     @Inject
     HelloService helloService;
 
-    //这是远程的
+    //这是远程的服务
     @NamiClient
     HelloService helloService2;
 
