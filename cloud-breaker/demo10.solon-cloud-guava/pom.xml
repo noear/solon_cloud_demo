@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo32-producer</artifactId>
+    <artifactId>demo10.solon-cloud-guava</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-api</artifactId>
@@ -25,9 +26,11 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>mqtt-solon-plugin</artifactId>
+            <artifactId>guava-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
+
+
     </dependencies>
 
     <build>
@@ -58,7 +61,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo.DemoApp</mainClass>
+                            <mainClass>demo10.Demo10App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

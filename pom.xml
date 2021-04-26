@@ -12,6 +12,9 @@
     <description>Java project for solon-rpc demo</description>
 
     <modules>
+        <module>cloud-breaker/demo10.solon-cloud-guava</module>
+        <module>cloud-breaker/demo11.solon-cloud-sentinel</module>
+
         <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-interface</module>
         <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-client</module>
         <module>cloud-config-discovery-rpc/demo20.solon-cloud-nacos/demo20-server</module>
