@@ -10,5 +10,5 @@ solon.cloud.rabbitmq:
   username: root           #rabbitmq 链接账号
   password: 123456         #rabbitmq 链接密码
   event:
-    channel: "im"
+    channel: "biz"
 

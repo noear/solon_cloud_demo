@@ -27,7 +27,7 @@ public class TestController {
             msg = "demo2";
         }
 
-        Event event = new Event("hello.demo2", msg).channel("im");
+        Event event = new Event("hello.demo2", msg).channel("biz");
         return CloudClient.event().publish(event);
     }
 }
