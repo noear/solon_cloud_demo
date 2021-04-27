@@ -46,6 +46,15 @@
         <module>cloud-event/demo31.solon-cloud-rocketmq/demo31-consumer</module>
         <module>cloud-event/demo31.solon-cloud-rocketmq/demo31-producer</module>
 
+        <module>cloud-event/demo32.solon-cloud-mqtt/demo32-consumer</module>
+        <module>cloud-event/demo32.solon-cloud-mqtt/demo32-producer</module>
+
+        <module>cloud-event/demo33.solon-cloud-event-multi-channel/demo33-consumer</module>
+        <module>cloud-event/demo33.solon-cloud-event-multi-channel/demo33-producer</module>
+
+        <module>cloud-file/demod.solon-cloud-aliyun-oss</module>
+        <module>cloud-file/demod.solon-cloud-aws-s3</module>
+
 
     </modules>
 
