@@ -55,6 +55,8 @@
         <module>cloud-file/demod.solon-cloud-aliyun-oss</module>
         <module>cloud-file/demod.solon-cloud-aws-s3</module>
 
+        <module>cloud-id/demoe.solon-cloud-snowflake</module>
+
 
     </modules>
 

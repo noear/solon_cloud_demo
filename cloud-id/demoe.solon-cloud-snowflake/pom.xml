@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo11.solon-cloud-sentinel</artifactId>
+    <artifactId>demoe.solon-cloud-snowflake</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -17,7 +17,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-api</artifactId>
@@ -26,10 +25,9 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>sentinel-solon-plugin</artifactId>
+            <artifactId>snowflake-id-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -60,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo11.Demo11App</mainClass>
+                            <mainClass>demo.DemoApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
