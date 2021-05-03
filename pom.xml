@@ -31,6 +31,12 @@
         <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-client</module>
         <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-server</module>
 
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-client</module>
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-interface</module>
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-server</module>
+
+
+
         <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-interface</module>
         <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-client</module>
         <module>cloud-config-discovery-event-log/demo22.solon-cloud-water/demo22-server</module>
