@@ -6,3 +6,7 @@ solon.cloud.zookeeper:
   server: "localhost:2181"
   config:
     load: "test.properties"
+
+solon.logging.logger:
+  "org.apache.zookeeper.ClientCnxn":
+    level: "INFO"

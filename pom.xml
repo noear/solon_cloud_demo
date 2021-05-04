@@ -31,9 +31,9 @@
         <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-client</module>
         <module>cloud-config-discovery-rpc/demo21d.solon-cloud-consul/demo21d-server</module>
 
-        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-client</module>
-        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-interface</module>
-        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zk/demo24-server</module>
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zookeeper/demo24-client</module>
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zookeeper/demo24-interface</module>
+        <module>cloud-config-discovery-rpc/demo24.solon-cloud-zookeeper/demo24-server</module>
 
 
 
@@ -57,6 +57,11 @@
 
         <module>cloud-event/demo33.solon-cloud-event-multi-channel/demo33-consumer</module>
         <module>cloud-event/demo33.solon-cloud-event-multi-channel/demo33-producer</module>
+
+        <module>cloud-event/demo34.solon-cloud-kafka/demo34-consumer</module>
+        <module>cloud-event/demo34.solon-cloud-kafka/demo34-producer</module>
+
+
 
         <module>cloud-file/demod.solon-cloud-aliyun-oss</module>
         <module>cloud-file/demod.solon-cloud-aws-s3</module>
