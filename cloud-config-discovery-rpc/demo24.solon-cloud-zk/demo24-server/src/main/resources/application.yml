@@ -6,3 +6,6 @@ solon.app:
 
 solon.cloud.zookeeper:
   server: "localhost:2181"
+
+solon.logging.logger:
+  "org.apache.zookeeper.ClientCnxn.level": INFO
