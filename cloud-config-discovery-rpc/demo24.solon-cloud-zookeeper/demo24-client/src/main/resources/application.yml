@@ -8,5 +8,5 @@ solon.cloud.zookeeper:
     load: "test.properties"
 
 solon.logging.logger:
-  "org.apache.zookeeper.ClientCnxn":
-    level: "INFO"
+  "org.apache.zookeeper.*":
+    level: "WARN"

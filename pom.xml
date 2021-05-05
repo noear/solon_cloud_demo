@@ -68,6 +68,8 @@
 
         <module>cloud-id/demoe.solon-cloud-snowflake</module>
 
+        <module>demo01</module>
+
 
     </modules>
 
