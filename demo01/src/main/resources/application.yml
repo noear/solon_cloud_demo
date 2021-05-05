@@ -13,7 +13,7 @@ solon.cloud.water:
 solon.cloud.local:
   discovery:
     service:
-      helloapi:
+      hellorpc:
         - "http://localhost:7112"  #本地服务配置
   breaker:
     main: 100
