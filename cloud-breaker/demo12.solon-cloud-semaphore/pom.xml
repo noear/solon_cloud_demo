@@ -30,6 +30,13 @@
             <version>${solon.ver}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon-test</artifactId>
+            <version>${solon.ver}</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -60,7 +67,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo11.Demo11App</mainClass>
+                            <mainClass>demo12.Demo12App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
