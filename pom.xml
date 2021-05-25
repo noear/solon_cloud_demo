@@ -69,6 +69,8 @@
 
         <module>cloud-id/demoe.solon-cloud-snowflake</module>
 
+        <module>cloud-job/demo.solon-cloud-xxl-job</module>
+
 
     </modules>
 

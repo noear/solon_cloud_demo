@@ -1,0 +1,7 @@
+
+solon.app:
+  name: demojob
+  group: demo
+
+solon.cloud.xxljob:
+  server: "http://172.168.0.163:30126/xxl-job-admin"
