@@ -1,15 +1,22 @@
+server.port: 8082
 
 solon.app:
   name: demojob
   group: demo
 
+
 solon.cloud.xxljob:
-  server: "http://172.168.0.163:30126/xxl-job-admin" #xxl-job admin address
+  server: "http://localhost:8093/xxl-job-admin" #xxl-job admin address
   password: "" #xxl-job access token
 
 ### --xxl-job executor server-info（默认：9999）
 # xxl.job.executor.port: 9999
 ### --xxl-job executor log-path（默认：/data/logs/xxl-job/jobhandler）
-# xxl.job.executor.logpath=/data/logs/xxl-job/jobhandler
+xxl.job.executor.logpath: "/Users/noear/logs/xxl-job/jobhandler"
 ### --xxl-job executor log-retention-days（默认：30）
 # xxl.job.executor.logretentiondays=30
+
+
+solon.logging.logger:
+  "io.netty.*":
+    level: INFO
