@@ -1,7 +1,6 @@
 package demo;
 
 import org.noear.solon.Solon;
-import org.noear.solon.cloud.CloudClient;
 
 /**
  * @author noear 2021/5/25 created
