@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 @Component
 public class JobBeanDemo2 {
     static final Logger log = LoggerFactory.getLogger(JobBeanDemo2.class);
+
     @CloudJob("JobBeanDemo2-1")
     public void test(){
         log.info("JobBeanDemo2-1");
