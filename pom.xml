@@ -72,6 +72,8 @@
         <module>cloud-job/demo.solon-cloud-xxl-job</module>
         <module>cloud-job/demo.solon-cloud-water</module>
 
+        <module>cloud-opentracing/demo.solon-cloud-jaeger</module>
+
 
     </modules>
 
