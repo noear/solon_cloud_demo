@@ -1,4 +1,4 @@
-package org.noear.solon.opentracing.demo.controller;
+package org.noear.solon.opentracing.demo.remoting;
 
 import org.noear.solon.annotation.Mapping;
 import org.noear.solon.annotation.Remoting;
