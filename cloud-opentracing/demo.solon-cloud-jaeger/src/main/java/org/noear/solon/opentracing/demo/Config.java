@@ -14,8 +14,6 @@ import org.noear.solon.Solon;
 import org.noear.solon.annotation.Bean;
 import org.noear.solon.annotation.Configuration;
 import org.noear.solon.annotation.Inject;
-import org.noear.solon.core.LoadBalance;
-import org.noear.solon.opentracing.demo.dso.LoadBalanceImpl;
 
 /**
  * @author noear 2021/6/6 created
@@ -43,10 +41,5 @@ public class Config {
                 .withMetrics(metrics)
                 .withExpandExceptionLogs()
                 .withSampler(new ConstSampler(true)).build();
-    }
-
-    @Bean("hellorpc")
-    public LoadBalance upstream() {
-        return new LoadBalanceImpl();
     }
 }

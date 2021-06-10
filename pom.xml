@@ -73,6 +73,8 @@
         <module>cloud-job/demo.solon-cloud-water</module>
 
         <module>cloud-opentracing/demo.solon-cloud-jaeger</module>
+        <module>cloud-opentracing/demo.solon-cloud-jaeger-com</module>
+        <module>cloud-opentracing/demo.solon-cloud-jaeger-rpc</module>
 
 
     </modules>

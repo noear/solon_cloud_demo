@@ -1,0 +1,11 @@
+server.port: 8081
+
+solon.app:
+  name: hellorpc
+  group: demo
+
+io:
+  opentracing:
+    trace:
+      host: localhost
+      port: 6831

@@ -7,7 +7,7 @@ import org.noear.solon.opentracing.demo.common.HelloService;
 /**
  * @author noear 2021/6/7 created
  */
-@Mapping("rpc")
+@Mapping("/")
 @Remoting
 public class HelloServiceImpl implements HelloService {
     @Override
