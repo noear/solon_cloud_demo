@@ -7,11 +7,14 @@ solon.cloud.local:
   discovery:
     service:
       hellorpc:
-        - http://localhost:8081
-
+        - tcp://localhost:28081
 
 io:
   opentracing:
     trace:
       host: localhost
       port: 6831
+
+solon.logging.logger:
+  "io.jaegertracing.*":
+    level: INFO

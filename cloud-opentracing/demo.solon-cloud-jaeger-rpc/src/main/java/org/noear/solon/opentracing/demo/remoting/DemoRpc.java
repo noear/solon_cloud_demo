@@ -9,6 +9,6 @@ import org.noear.solon.cloud.extend.opentracing.annotation.EnableOpentracing;
 @EnableOpentracing
 public class DemoRpc {
     public static void main(String[] args) {
-        Solon.start(DemoRpc.class, args);
+        Solon.start(DemoRpc.class, args, app-> app.enableSocketD(true)).onError(e->e.printStackTrace());
     }
 }

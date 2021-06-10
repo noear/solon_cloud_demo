@@ -9,3 +9,7 @@ io:
     trace:
       host: localhost
       port: 6831
+
+solon.logging.logger:
+  "io.jaegertracing.*":
+    level: INFO
