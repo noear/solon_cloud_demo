@@ -15,6 +15,8 @@ io:
       host: localhost
       port: 6831
 
-solon.logging.logger:
-  "io.jaegertracing.*":
-    level: INFO
+#solon.logging.logger:
+#  "io.jaegertracing.*":
+#    level: WARN
+#  "org.noear.*":
+#    level: INFO

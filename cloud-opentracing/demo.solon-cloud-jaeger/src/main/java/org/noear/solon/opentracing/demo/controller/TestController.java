@@ -15,6 +15,8 @@ public class TestController {
 
     @Mapping("/")
     public String hello(String name) {
+        helloService.hello(name);
+
         return "Rpc: " + helloService.hello(name);
     }
 }
