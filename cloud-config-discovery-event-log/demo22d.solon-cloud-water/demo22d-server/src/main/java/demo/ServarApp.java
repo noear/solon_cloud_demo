@@ -7,8 +7,9 @@ import org.noear.solon.Solon;
  */
 public class ServarApp {
     public static void main(String[] args) {
-        Solon.start(ServarApp.class, args, app ->
-                app.enableSocketD(true)
-                        .enableSafeStop(app.cfg().isFilesMode() == false));
+        Solon.start(ServarApp.class, args, app -> {
+            app.enableSocketD(true);
+            app.enableSafeStop(app.cfg().isFilesMode() == false);
+        });
     }
 }
