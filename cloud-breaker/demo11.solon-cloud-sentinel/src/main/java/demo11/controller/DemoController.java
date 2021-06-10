@@ -1,4 +1,4 @@
-package demo12.controller;
+package demo11.controller;
 
 import org.noear.solon.Solon;
 import org.noear.solon.annotation.Controller;
