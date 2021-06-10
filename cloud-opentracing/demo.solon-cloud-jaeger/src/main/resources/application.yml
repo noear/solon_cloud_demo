@@ -13,5 +13,5 @@ solon.cloud.local:
 io:
   opentracing:
     trace:
-      host: 172.168.0.166
+      host: localhost
       port: 6831
