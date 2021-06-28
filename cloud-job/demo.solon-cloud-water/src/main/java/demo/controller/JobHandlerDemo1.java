@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @author noear 2021/5/25 created
  */
-@CloudJob("JobHandlerDemo1")
+@CloudJob(name = "JobHandlerDemo1", cron7x = "0 * * * * ?")
 public class JobHandlerDemo1 implements CloudJobHandler {
     static final Logger log = LoggerFactory.getLogger(JobBeanDemo2.class);
 
