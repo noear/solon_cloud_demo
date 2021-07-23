@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demo20-server</artifactId>
+    <artifactId>demod.solon-cloud-qiniu-kodo</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -19,23 +19,15 @@
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>demo20-interface</artifactId>
-            <version>demo</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.noear</groupId>
-            <artifactId>solon-rpc</artifactId>
+            <artifactId>solon-api</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>nacos-solon-plugin</artifactId>
+            <artifactId>qiniu-kodo-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
-
-
     </dependencies>
 
     <build>
@@ -66,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>demo.ServarApp</mainClass>
+                            <mainClass>demo.DemoApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
