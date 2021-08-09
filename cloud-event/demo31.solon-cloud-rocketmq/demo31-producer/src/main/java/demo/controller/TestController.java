@@ -14,7 +14,7 @@ public class TestController {
     @Mapping("/test")
     public Object test(String msg) {
         if(Utils.isEmpty(msg)){
-            msg = "demo2";
+            msg = "demo";
         }
 
         Event event = new Event("hello.demo", msg);
