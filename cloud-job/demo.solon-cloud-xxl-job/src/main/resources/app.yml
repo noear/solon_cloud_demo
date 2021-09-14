@@ -23,7 +23,7 @@ solon.logging.logger:
 ### xxl-job executor server-info（默认：本机内网ip）
 #xxl.job.executor.ip:
 ### xxl-job executor server-info（默认：9999）
-#xxl.job.executor.port: 9999
+xxl.job.executor.port: 29999
 ### xxl-job executor log-path（默认：/data/logs/xxl-job/jobhandler）
 #xxl.job.executor.logpath:
 ### xxl-job executor log-retention-days（默认：30）
