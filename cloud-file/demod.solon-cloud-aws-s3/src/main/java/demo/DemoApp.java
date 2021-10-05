@@ -4,6 +4,7 @@ import org.noear.snack.ONode;
 import org.noear.solon.Utils;
 import org.noear.solon.cloud.CloudClient;
 import org.noear.solon.cloud.exception.CloudFileException;
+import org.noear.solon.cloud.model.Media;
 import org.noear.solon.core.handle.Result;
 
 import java.io.File;
@@ -13,13 +14,13 @@ import java.io.FileInputStream;
  * @author noear 2021/4/8 created
  */
 public class DemoApp {
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         test();
         test2();
     }
 
     public static void test() {
-        if(CloudClient.file() == null){
+        if (CloudClient.file() == null) {
             System.err.println("This file service is not available");
             return;
         }
@@ -28,19 +29,19 @@ public class DemoApp {
         String val = "Hello world!";
 
         //上传字符串内容
-        Result result = CloudClient.file().putText(key, val);
+        Result result = CloudClient.file().put(key, new Media(val));
         System.out.println(ONode.stringify(result));
         assert result.getCode() == Result.SUCCEED_CODE;
 
 
         //获取字符串内容
-        String tmp = CloudClient.file().getText(key);
+        String tmp = CloudClient.file().get(key).bodyAsString();
         assert val.equals(tmp);
     }
 
 
     public static void test2() throws Exception {
-        if(CloudClient.file() == null){
+        if (CloudClient.file() == null) {
             System.err.println("This file service is not available");
             return;
         }
@@ -52,7 +53,7 @@ public class DemoApp {
         //file url like : http://xx.xx.xx/test/xxx.png
 
         //上传文件
-        Result result = CloudClient.file().putStream(key, new FileInputStream(val), Utils.mime(val.getName()));
+        Result result = CloudClient.file().put(key, new Media(new FileInputStream(val), Utils.mime(val.getName())));
         System.out.println(ONode.stringify(result));
         assert result.getCode() == Result.SUCCEED_CODE;
     }
