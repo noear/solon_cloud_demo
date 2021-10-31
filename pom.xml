@@ -62,13 +62,18 @@
         <module>cloud-event/demo34.solon-cloud-kafka/demo34-consumer</module>
         <module>cloud-event/demo34.solon-cloud-kafka/demo34-producer</module>
 
+        <module>cloud-event/demo35.solon-cloud-pulsar/demo35-consumer</module>
+        <module>cloud-event/demo35.solon-cloud-pulsar/demo35-producer</module>
 
 
-        <module>cloud-file/demod.solon-cloud-aliyun-oss</module>
-        <module>cloud-file/demod.solon-cloud-aws-s3</module>
-        <module>cloud-file/demod.solon-cloud-qiniu-kodo</module>
 
-        <module>cloud-id/demoe.solon-cloud-snowflake</module>
+
+
+        <module>cloud-file/demo.solon-cloud-aliyun-oss</module>
+        <module>cloud-file/demo.solon-cloud-aws-s3</module>
+        <module>cloud-file/demo.solon-cloud-qiniu-kodo</module>
+
+        <module>cloud-id/demo.solon-cloud-snowflake</module>
 
         <module>cloud-job/demo.solon-cloud-xxl-job</module>
         <module>cloud-job/demo.solon-cloud-water</module>

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demod.solon-cloud-aliyun-oss</artifactId>
+    <artifactId>demo.solon-cloud-aws-s3</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -13,7 +13,7 @@
     <description>Java project for water</description>
 
     <properties>
-        <solon.ver>1.5.54</solon.ver>
+        <solon.ver>1.5.55</solon.ver>
     </properties>
 
     <dependencies>
@@ -25,7 +25,7 @@
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>aliyun-oss-solon-plugin</artifactId>
+            <artifactId>aws-s3-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
     </dependencies>
@@ -58,7 +58,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>testapi.TestApi1App</mainClass>
+                            <mainClass>demo.DemoApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

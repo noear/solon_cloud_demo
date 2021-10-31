@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.noear</groupId>
-    <artifactId>demoe.solon-cloud-snowflake</artifactId>
+    <artifactId>demo.solon-cloud-qiniu-kodo</artifactId>
     <version>demo</version>
     <packaging>jar</packaging>
 
@@ -13,19 +13,19 @@
     <description>Java project for water</description>
 
     <properties>
-        <solon.ver>1.5.54</solon.ver>
+        <solon.ver>1.5.55</solon.ver>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>solon-lib</artifactId>
+            <artifactId>solon-api</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>snowflake-id-solon-plugin</artifactId>
+            <artifactId>qiniu-kodo-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
     </dependencies>
