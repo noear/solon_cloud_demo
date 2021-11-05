@@ -13,7 +13,7 @@
     <description>Java project for water</description>
 
     <properties>
-        <solon.ver>1.5.55</solon.ver>
+        <solon.ver>1.5.58</solon.ver>
     </properties>
 
     <dependencies>
@@ -26,6 +26,12 @@
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>rabbitmq-solon-plugin</artifactId>
+            <version>${solon.ver}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>cloudevent-plus-solon-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
     </dependencies>
