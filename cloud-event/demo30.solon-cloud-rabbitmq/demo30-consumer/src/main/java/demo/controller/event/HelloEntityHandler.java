@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class HelloEntityHandler implements CloudEventHandlerPlus<HelloEntity> {
 
     @Override
-    public boolean handler(HelloEntity event) throws Throwable {
+    public boolean handle(HelloEntity event) throws Throwable {
         System.out.println("HelloEntityHandler:: " + event.name);
         return true;
     }
