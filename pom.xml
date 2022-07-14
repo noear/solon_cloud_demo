@@ -69,8 +69,6 @@
 
 
 
-
-
         <module>cloud-file/demo.solon-cloud-aliyun-oss</module>
         <module>cloud-file/demo.solon-cloud-aws-s3</module>
         <module>cloud-file/demo.solon-cloud-qiniu-kodo</module>
@@ -83,8 +81,6 @@
         <module>cloud-opentracing/demo.solon-cloud-jaeger</module>
         <module>cloud-opentracing/demo.solon-cloud-jaeger-com</module>
         <module>cloud-opentracing/demo.solon-cloud-jaeger-rpc</module>
-
-
     </modules>
 
 </project>
