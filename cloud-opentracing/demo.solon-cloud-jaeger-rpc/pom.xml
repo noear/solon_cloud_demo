@@ -13,13 +13,13 @@
     <description>Java project for water</description>
 
     <properties>
-        <solon.ver>1.10.3</solon.ver>
+        <solon.ver>1.10.5</solon.ver>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
-            <artifactId>opentracing-solon-plugin</artifactId>
+            <artifactId>opentracing-solon-cloud-plugin</artifactId>
             <version>${solon.ver}</version>
         </dependency>
 

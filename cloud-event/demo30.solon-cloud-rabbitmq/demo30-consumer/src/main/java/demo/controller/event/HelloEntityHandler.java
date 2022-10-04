@@ -1,8 +1,7 @@
 package demo.controller.event;
 
-import org.noear.solon.cloud.extend.cloudeventplus.CloudEventHandlerPlus;
-import org.noear.solon.cloud.extend.cloudeventplus.CloudEventSubscribe;
-import org.noear.solon.cloud.model.Event;
+import org.noear.solon.cloud.eventplus.CloudEventHandlerPlus;
+import org.noear.solon.cloud.eventplus.CloudEventSubscribe;
 
 import java.time.LocalDateTime;
 
