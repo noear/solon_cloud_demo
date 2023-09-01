@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.noear</groupId>
+        <artifactId>solon-parent</artifactId>
+        <version>2.5.1</version>
+        <relativePath />
+    </parent>
+
     <groupId>org.noear</groupId>
     <artifactId>demo33-consumer</artifactId>
     <version>demo</version>
@@ -12,26 +19,19 @@
     <name>${project.artifactId}</name>
     <description>Java project for water</description>
 
-    <properties>
-        <solon.ver>2.5.1</solon.ver>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>solon-lib</artifactId>
-            <version>${solon.ver}</version>
         </dependency>
 
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>mqtt-solon-cloud-plugin</artifactId>
-            <version>${solon.ver}</version>
         </dependency>
         <dependency>
             <groupId>org.noear</groupId>
             <artifactId>rabbitmq-solon-cloud-plugin</artifactId>
-            <version>${solon.ver}</version>
         </dependency>
     </dependencies>
 
