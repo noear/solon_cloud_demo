@@ -6,6 +6,6 @@ import org.noear.solon.Solon;
  */
 public class DemoRpc {
     public static void main(String[] args) {
-        Solon.start(DemoRpc.class, args, app-> app.enableSocketD(true)).onError(e->e.printStackTrace());
+        Solon.start(DemoRpc.class, args, app-> app.enableSocketD(true));
     }
 }
